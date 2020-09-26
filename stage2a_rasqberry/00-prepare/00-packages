@@ -1,0 +1,1 @@
+git python3-pip ca-certificates ninja-build build-essential libblas-dev python-numpy
