@@ -1,10 +1,14 @@
+[![Build Status](https://travis-ci.org/BAndiT1983/pi-gen_rasqberry.svg?branch=master)](https://travis-ci.org/BAndiT1983/pi-gen_rasqberry)
+
 # pi-gen
 
 Tool used to create Raspberry Pi OS images. (Previously known as Raspbian).
 
+
 ## RasQberry adjustments
 
 Adjustments are described in [RASQBERRY_CHANGES](RASQBERRY_CHANGES.md)
+
 
 ## Dependencies
 
