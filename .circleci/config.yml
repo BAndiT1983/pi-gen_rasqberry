@@ -3,5 +3,5 @@ jobs:
   build:
     machine: true
     steps:
-      - run: checkout
+      - checkout
       - run: ./build-docker.sh
