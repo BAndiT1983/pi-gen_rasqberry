@@ -11,5 +11,4 @@ addons:
       - dosfstools
       - zip
 script:
-  - ls -lisah
-  - ./docker-build.sh
+  - ./build-docker.sh
