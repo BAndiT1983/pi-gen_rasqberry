@@ -1,4 +1,4 @@
-dist: trusty
+dist: focal
 sudo: required
 addons:
   apt:
@@ -11,4 +11,5 @@ addons:
       - dosfstools
       - zip
 script:
-  - sudo bash ./docker-build.sh
+  - ls -lisah
+  - ./docker-build.sh
