@@ -12,4 +12,4 @@ addons:
       - dosfstools
       - zip
 script:
-  - ./build.sh
+  - sudo ./build.sh
