@@ -13,6 +13,6 @@ addons:
       - zip
       - quilt 
       - debootstrap 
-      - bsdtar
+      - libarchive-tools
 script:
   - sudo ./build.sh
