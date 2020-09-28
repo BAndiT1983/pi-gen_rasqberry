@@ -14,7 +14,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 cd /tmp
 
-pip3 install --upgrade pip virtualenv setuptools setuptools-rust wheel
+pip3 install --upgrade pip virtualenv setuptools setuptools-rust wheel numpy
 pip3 install --prefer-binary pyscf cython six==1.14.*
 
 section_echo 'Setup virtualenv'
