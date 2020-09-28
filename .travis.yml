@@ -12,4 +12,4 @@ addons:
       - dosfstools
       - zip
 script:
-  - ./build-docker.sh
+  - ./build.sh
