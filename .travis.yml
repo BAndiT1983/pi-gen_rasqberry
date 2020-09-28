@@ -11,5 +11,8 @@ addons:
       - wget
       - dosfstools
       - zip
+      - quilt 
+      - debootstrap 
+      - bsdtar
 script:
   - sudo ./build.sh
