@@ -3,5 +3,7 @@ jobs:
   build:
     machine: true
     steps:
-      - run: checkout
-      - run: ./build-docker.sh
+      - checkout
+      - run:
+          name: "Build image"
+          command: ls -lisah && ./build-docker.sh

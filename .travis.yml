@@ -1,0 +1,18 @@
+dist: focal
+os: linux
+language: python
+addons:
+  apt:
+    packages:
+      - qemu
+      - qemu-user-static
+      - binfmt-support
+      - parted
+      - wget
+      - dosfstools
+      - zip
+      - quilt 
+      - debootstrap 
+      - libarchive-tools
+script:
+  - sudo ./build.sh
